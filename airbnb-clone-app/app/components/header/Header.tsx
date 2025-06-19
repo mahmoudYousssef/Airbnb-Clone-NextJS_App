@@ -6,7 +6,7 @@ import Navbar from "./Navbar";
 const Header = () => {
   return (
     <header className="sticky top-0 bg-white shadow-md py-5 ">
-      <div className="container">
+      <div className="container grid grid-cols-3  justify-between">
           <Link href="/" className=" relative flex items-center h-10 my-auto">
         <Image
           src={Logo}
